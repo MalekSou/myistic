@@ -16,6 +16,7 @@ import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import {APP_BASE_HREF} from '@angular/common';
 import { LoginComponent } from './login/login.component';
+import { InscriptionComponent } from './inscription/inscription.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { LoginComponent } from './login/login.component';
     UniversityComponent,
     PageNotFoundComponent,
     LoginComponent,
+    InscriptionComponent,
    ],
 
   imports: [
