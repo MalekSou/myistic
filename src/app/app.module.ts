@@ -15,8 +15,7 @@ import { UniversityComponent } from './components/university/university.componen
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import {APP_BASE_HREF} from '@angular/common';
-import { LoginComponent } from './login/login.component';
-import { InscriptionComponent } from './inscription/inscription.component';
+import { InscriptionComponent } from './components/inscription/inscription.component';
 
 
 @NgModule({
@@ -32,7 +31,6 @@ import { InscriptionComponent } from './inscription/inscription.component';
     EndComponent,
     UniversityComponent,
     PageNotFoundComponent,
-    LoginComponent,
     InscriptionComponent,
    ],
 
@@ -41,8 +39,9 @@ import { InscriptionComponent } from './inscription/inscription.component';
     AppRoutingModule,
     CommonModule ,
     RouterModule.forRoot([
-      {path: 'index', component: PresentationComponent},
-      {path: '', component: PresentationComponent},
+      // {path: 'index', component: PresentationComponent},
+      // {path: '', component: PresentationComponent},
+      {path: 'inscription', component: InscriptionComponent},
       {path: 'menu', component: BarreMenuComponent},
       {path: 'agenda', component: AgendaComponent, },
       {path: 'formation', component: FormationComponent},
