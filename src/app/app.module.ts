@@ -18,6 +18,9 @@ import {APP_BASE_HREF} from '@angular/common';
 import { InscriptionComponent } from './components/inscription/inscription.component';
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
