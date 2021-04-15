@@ -29,9 +29,7 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/css/stylec2d0.css",
-              "src/css/style.css",
-              "src/css/font-awesome.css",
-              "src/styles.css"
+              "src/css/font-awesome.css"
             ],
             "scripts": []
           },

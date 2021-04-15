@@ -85,3 +85,6 @@
     opacity: 1;
   }
 }
+.agenda, .formations, .international, .universite , .campus {
+	overflow:hidden;
+}
