@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-inscription',
   templateUrl: './inscription.component.html',
-  styleUrls: ['./inscription.component.css']
+  styleUrls: ['bootstrap/css/bootstrap.min.css', './inscription.component.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class InscriptionComponent implements OnInit {
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

@@ -1,22 +1,59 @@
 
-.p-t-10 {padding-top: 10px;}
-.p-t-20 {padding-top: 20px;}
-.p-t-25 {padding-top: 25px;}
-.p-t-190 {padding-top: 190px;}
-.p-t-100 {padding-top: 100px;}
+.p-t-10 {
+  padding-top: 10px;
+}
 
-.p-b-10 {padding-bottom: 10px;}
-.p-b-30 {padding-bottom: 30px;}
-.p-b-45 {padding-bottom: 45px;}
-.p-b-100 {padding-bottom: 100px;}
+.p-t-20 {
+  padding-top: 20px;
+}
 
-.m-b-10 {margin-bottom: 10px;}
-.m-b-20 {margin-bottom: 20px;}
-.m-b-100 {margin-bottom: 100px;}
+.p-t-25 {
+  padding-top: 25px;
+}
 
-.text-center {text-align: center;}
+.p-t-190 {
+  padding-top: 190px;
+}
 
-.w-full {width: 100%;}
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.p-b-10 {
+  padding-bottom: 10px;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.p-b-45 {
+  padding-bottom: 45px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-b-100 {
+  margin-bottom: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
 
 
 /*
@@ -24,17 +61,17 @@
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url ('/assets/fonts/montserrat/Montserrat-Regular.ttf'); 
+  src: url ('/assets/fonts/montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-ExtraBold;
-  src: url ('/assets/fonts/montserrat/Montserrat-ExtraBold.ttf'); 
+  src: url ('/assets/fonts/montserrat/Montserrat-ExtraBold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url ('/assets/fonts/montserrat/Montserrat-Bold.ttf'); 
+  src: url ('/assets/fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 
@@ -42,66 +79,66 @@
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body, html {
-	height: 100%;
-	font-family: Montserrat-Regular, sans-serif;
+  height: 100%;
+  font-family: Montserrat-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Montserrat-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
   color: #fff;
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
 }
 
 p {
-	font-family: Montserrat-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
 ul, li {
-	margin: 0px;
-	list-style-type: none;
+  margin: 0px;
+  list-style-type: none;
 }
 
 
 /*---------------------------------------------*/
 input {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 select {
   outline: none;
-	border: none;
+  border: none;
 }
 
 textarea {
@@ -116,17 +153,17 @@ textarea:focus, input:focus, select:focus {
 
 /*---------------------------------------------*/
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
 
 
@@ -157,7 +194,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -171,7 +208,7 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
   position: relative;
   z-index: 1;
 }
@@ -185,7 +222,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  
+
   opacity: 0.9;
 }
 
@@ -193,7 +230,6 @@ iframe {
   width: 390px;
   background: transparent;
 }
-
 
 
 /*
@@ -227,6 +263,7 @@ iframe {
   overflow: hidden;
   margin: 0 auto;
 }
+
 .login100-form-avatar img {
   width: 100%;
 }
@@ -266,7 +303,7 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(0,91,234, 0.6);
+  color: rgba(0, 91, 234, 0.6);
 }
 
 .input100:focus + .focus-input100 {
@@ -402,24 +439,62 @@ iframe {
     padding-right: 15px;
   }
 }
-.p-t-10 {padding-top: 10px;}
-.p-t-20 {padding-top: 20px;}
-.p-t-25 {padding-top: 25px;}
-.p-t-190 {padding-top: 190px;}
-.p-t-100 {padding-top: 100px;}
 
-.p-b-10 {padding-bottom: 10px;}
-.p-b-30 {padding-bottom: 30px;}
-.p-b-45 {padding-bottom: 45px;}
-.p-b-100 {padding-bottom: 100px;}
+.p-t-10 {
+  padding-top: 10px;
+}
 
-.m-b-10 {margin-bottom: 10px;}
-.m-b-20 {margin-bottom: 20px;}
-.m-b-100 {margin-bottom: 100px;}
+.p-t-20 {
+  padding-top: 20px;
+}
 
-.text-center {text-align: center;}
+.p-t-25 {
+  padding-top: 25px;
+}
 
-.w-full {width: 100%;}
+.p-t-190 {
+  padding-top: 190px;
+}
+
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.p-b-10 {
+  padding-bottom: 10px;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.p-b-45 {
+  padding-bottom: 45px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-b-100 {
+  margin-bottom: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
 
 
 /*
@@ -427,17 +502,17 @@ iframe {
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url ('/assets/fonts/montserrat/Montserrat-Regular.ttf'); 
+  src: url ('/assets/fonts/montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-ExtraBold;
-  src: url ('/assets/fonts/montserrat/Montserrat-ExtraBold.ttf'); 
+  src: url ('/assets/fonts/montserrat/Montserrat-ExtraBold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url ('/assets/fonts/montserrat/Montserrat-Bold.ttf'); 
+  src: url ('/assets/fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 
@@ -445,66 +520,66 @@ iframe {
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body, html {
-	height: 100%;
-	font-family: Montserrat-Regular, sans-serif;
+  height: 100%;
+  font-family: Montserrat-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Montserrat-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
   color: #fff;
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
 }
 
 p {
-	font-family: Montserrat-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
 ul, li {
-	margin: 0px;
-	list-style-type: none;
+  margin: 0px;
+  list-style-type: none;
 }
 
 
 /*---------------------------------------------*/
 input {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 select {
   outline: none;
-	border: none;
+  border: none;
 }
 
 textarea {
@@ -519,17 +594,17 @@ textarea:focus, input:focus, select:focus {
 
 /*---------------------------------------------*/
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
 
 
@@ -560,7 +635,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -574,7 +649,7 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
   position: relative;
   z-index: 1;
 }
@@ -588,7 +663,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  
+
   opacity: 0.9;
 }
 
@@ -596,7 +671,6 @@ iframe {
   width: 390px;
   background: transparent;
 }
-
 
 
 /*
@@ -630,6 +704,7 @@ iframe {
   overflow: hidden;
   margin: 0 auto;
 }
+
 .login100-form-avatar img {
   width: 100%;
 }
@@ -669,7 +744,7 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(0,91,234, 0.6);
+  color: rgba(0, 91, 234, 0.6);
 }
 
 .input100:focus + .focus-input100 {

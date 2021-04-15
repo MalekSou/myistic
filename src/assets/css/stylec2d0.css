@@ -3,6 +3,22 @@
 
 
 /* visual styles */
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url ('fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url ('fonts/montserrat/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url ('fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+
 .searchwp-live-search-results {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
