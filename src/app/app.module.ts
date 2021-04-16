@@ -16,6 +16,8 @@ import {UniversityComponent} from './components/university/university.component'
 import {RouterModule} from '@angular/router';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
 import {InscriptionComponent} from './components/inscription/inscription.component';
+import { LoginComponent } from './components/login/login.component';
+import { CompteEtudiantComponent } from './components/compte-etudiant/compte-etudiant.component';
 
 
 @NgModule({
@@ -33,6 +35,8 @@ import {InscriptionComponent} from './components/inscription/inscription.compone
     PageNotFoundComponent,
     InscriptionComponent,
     HomeComponent,
+    LoginComponent,
+    CompteEtudiantComponent,
   ],
 
   imports: [
@@ -43,6 +47,7 @@ import {InscriptionComponent} from './components/inscription/inscription.compone
       {path: 'home', component: HomeComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'inscription', component: InscriptionComponent},
+      {path: 'login', component: LoginComponent},
       {path: 'menu', component: BarreMenuComponent},
       {path: 'agenda', component: AgendaComponent,},
       {path: 'formation', component: FormationComponent},
