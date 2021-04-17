@@ -18,6 +18,9 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
 import {InscriptionComponent} from './components/inscription/inscription.component';
 import { LoginComponent } from './components/login/login.component';
 import { CompteEtudiantComponent } from './components/compte-etudiant/compte-etudiant.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
+import { ModifieEtudiantComponent } from './components/modifie-etudiant/modifie-etudiant.component';
 
 
 @NgModule({
@@ -37,17 +40,21 @@ import { CompteEtudiantComponent } from './components/compte-etudiant/compte-etu
     HomeComponent,
     LoginComponent,
     CompteEtudiantComponent,
+    ModifieEtudiantComponent,
   ],
 
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
+    NgbPaginationModule, NgbAlertModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'inscription', component: InscriptionComponent},
       {path: 'login', component: LoginComponent},
+      {path: 'CompteEtudiant', component: CompteEtudiantComponent},
+      {path: 'modifieEtudiant', component: ModifieEtudiantComponent},
       {path: 'menu', component: BarreMenuComponent},
       {path: 'agenda', component: AgendaComponent,},
       {path: 'formation', component: FormationComponent},
@@ -58,6 +65,7 @@ import { CompteEtudiantComponent } from './components/compte-etudiant/compte-etu
       {path: 'end', component: EndComponent},
       {path: '**', component: PageNotFoundComponent}
     ]),
+    NgbModule,
   ],
   providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   bootstrap: [AppComponent]
