@@ -21,6 +21,11 @@ import { CompteEtudiantComponent } from './components/compte-etudiant/compte-etu
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import { ModifieEtudiantComponent } from './components/modifie-etudiant/modifie-etudiant.component';
+import { CompteAdminComponent } from './components/compte-admin/compte-admin.component';
+import { AdminModifieEtudiantComponent } from './components/admin-modifie-etudiant/admin-modifie-etudiant.component';
+import { ModifieAdminComponent } from './components/modifie-admin/modifie-admin.component';
+
+
 
 
 @NgModule({
@@ -41,6 +46,11 @@ import { ModifieEtudiantComponent } from './components/modifie-etudiant/modifie-
     LoginComponent,
     CompteEtudiantComponent,
     ModifieEtudiantComponent,
+    CompteAdminComponent,
+    AdminModifieEtudiantComponent,
+    ModifieAdminComponent,
+    
+   
   ],
 
   imports: [
@@ -55,6 +65,10 @@ import { ModifieEtudiantComponent } from './components/modifie-etudiant/modifie-
       {path: 'login', component: LoginComponent},
       {path: 'CompteEtudiant', component: CompteEtudiantComponent},
       {path: 'modifieEtudiant', component: ModifieEtudiantComponent},
+      {path: 'modifieAdmin', component: ModifieAdminComponent},
+      {path: 'AdminmodifieEtudiant', component: AdminModifieEtudiantComponent},
+      {path: 'CompteAdmin', component: CompteAdminComponent},
+      
       {path: '**', component: PageNotFoundComponent}
     ]),
     NgbModule,
